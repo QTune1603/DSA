@@ -1,7 +1,7 @@
 public class Module1 {
 
-    public static void printString(String a, String b){
-        System.out.println(a + " " + b);
+    public static void printString(String hello){
+        System.out.println(hello);
     }
     public static void main(String[] args) throws Exception {
         //Bai1
@@ -20,7 +20,7 @@ public class Module1 {
         System.out.println(helloWorld);
         
         //Bai4
-        printString(hello,world);
+        printString(helloWorld);
 
 
     }
