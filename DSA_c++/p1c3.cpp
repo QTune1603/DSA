@@ -8,7 +8,7 @@
 using namespace std;
 
 //c3 : convert to c++
-// check number is odd or even
+// check sum of odd number
 
 int main() {
     ios_base::sync_with_stdio(false);
