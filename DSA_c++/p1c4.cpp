@@ -8,7 +8,7 @@
 using namespace std;
 
 //c4 : convert to c++
-// sumOdd
+// check print if m = n
 
 int main() {
     ios_base::sync_with_stdio(false);
