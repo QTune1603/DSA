@@ -8,19 +8,21 @@
 using namespace std;
 
 //c3 : convert to c++
-// check sum of odd number
+// check even and odd number
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
 
-    int n = 100;
-    int sum = 0;
-    for(int i = 1 ; i <= n ; i++){
-        if(i % 2 != 0){
-            sum += i;
-        }
+    int number; cin >> number;
+    if(number % 2 == 0){
+        cout << "Even";
     }
-    cout << sum;
+    else cout << "Odd";
+
+    //test : 11,15,26,13
+    // output : odd,odd,even,odd
+
+    return 0;
 }
 
